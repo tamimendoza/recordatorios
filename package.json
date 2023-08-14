@@ -1,0 +1,19 @@
+{
+  "name": "recordatorio",
+  "version": "1.0.0",
+  "description": "App para automatizar recordatorios en whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+  	"whatsapp", "cron"
+  ],
+  "author": "https://www.youtube.com/@tutomas",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.22.1"
+  }
+}
